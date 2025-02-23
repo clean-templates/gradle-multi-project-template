@@ -1,17 +1,14 @@
 plugins {
-    id("java")
+    id("myproject.spring-conventions")
 }
 
 group = "com.rolandsall"
 
-repositories {
-    mavenCentral()
-}
-
 dependencies {
-
+    implementation("org.springframework.boot:spring-boot-starter-web")
+    testImplementation ("org.springframework.boot:spring-boot-starter-test")
 }
 
-tasks.test {
-    useJUnitPlatform()
-}
+
+
+
