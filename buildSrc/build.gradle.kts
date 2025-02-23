@@ -2,9 +2,6 @@ plugins {
     `kotlin-dsl`
 }
 
-repositories {
-    mavenCentral()
-}
 
 extra["springBootVersion"] = "3.4.2"
 extra["springDependencyManagementVersion"] = "1.1.7"
