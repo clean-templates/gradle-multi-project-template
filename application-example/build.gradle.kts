@@ -10,9 +10,7 @@ tasks.generateScript {
     mainClass.set("com.rolandsall.Main")
 }
 
-myApp {
 
-}
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
